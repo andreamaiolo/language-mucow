@@ -1,0 +1,73 @@
+'.text.xml.mucow':
+  'MuCow':
+    'prefix': 'mucow'
+    'body': '<?xml version="1.0" encoding="UTF-8"?>\n<HTMLWidget name="$1" formatNumber="$2" localization="$3">\n\t$4\n</HTMLWidget>'
+  'Parameters':
+    'prefix': 'parameters'
+    'body': '<parameters>\n\t$1\n</parameters>'
+  'Text':
+    'prefix': 'text'
+    'body': '<text name="$1" defaultValue="$2" />'
+  'List':
+    'prefix': 'list'
+    'body': '<list name="$1" defaultValue="$2">\n\t${3:<value name="$4" />}\n</list>'
+  'Value':
+    'prefix': 'value'
+    'body': '<value name="$1">\n\t$2\n</value>'
+  'URL':
+    'prefix': 'url'
+    'body': '<url name="$1" defaultValue="$2" />'
+  'Bool':
+    'prefix': 'bool'
+    'body': '<bool name="$1" defaultValue="$2">\n\t${3:<trueVal value="$4" />}\n\t${5:<falseVal value="$6" />}\n</bool>'
+  'True value':
+    'prefix': 'trueval'
+    'body': '<trueVal value="$1">\n\t$2\n</trueVal>'
+  'False value':
+    'prefix': 'falseval'
+    'body': '<falseVal value="$1">\n\t$2\n</falseVal>'
+  'Number':
+    'prefix': 'number'
+    'body': '<number name="$1" defaultValue="$2" min="$3" max="$4" />'
+  'Built in':
+    'prefix': 'builtin'
+    'body': '<builtIn name="$1" />'
+  'Info':
+    'prefix': 'info'
+    'body': '<info label="$1" />'
+  'Separator':
+    'prefix': 'separator'
+    'body': '<separator />'
+  'File':
+    'prefix': 'file'
+    'body': '<file name="$1" />'
+  'Color':
+    'prefix': 'color'
+    'body': '<color name="$1" defaultValue="$2" />'
+  'Section':
+    'prefix': 'section'
+    'body': '<section label="$1" />'
+  'Document ready JS':
+    'prefix': 'documentreadyjs'
+    'body': '<documentReadyJS>\n\t<![CDATA[$1]]>\n</documentReadyJS>'
+  'Head HTML':
+    'prefix': 'headhtml'
+    'body': '<headHTML>\n\t<![CDATA[$1]]>\n</headHTML>'
+  'Body begin HTML':
+    'prefix': 'bodybeginhtml'
+    'body': '<bodyBeginHTML>\n\t<![CDATA[$1]]>\n</bodyBeginHTML>'
+  'Page item HTML':
+    'prefix': 'pageitemhtml'
+    'body': '<pageItemHTML>\n\t<![CDATA[$1]]>\n</pageItemHTML>'
+  'Body end HTML':
+    'prefix': 'bodyendnhtml'
+    'body': '<bodyEndHTML>\n\t<![CDATA[$1]]>\n</bodyEndHTML>'
+  'Page item poster HTML':
+    'prefix': 'pageitemposterhtml'
+    'body': '<pageItemPosterHTML>\n\t<![CDATA[$1]]>\n</pageItemPosterHTML>'
+  'String table':
+    'prefix': 'stringtable'
+    'body': '<stringTable>\n\t<locale name="$1">\n\t\t<string keyString="$2" translation="$3" />\n\t</locale>\n</stringTable>'
+  'Locale':
+    'prefix': 'locale'
+    'body': '<locale name="$1">\n\t<string keyString="$2" translation="$3" />\n</locale>'

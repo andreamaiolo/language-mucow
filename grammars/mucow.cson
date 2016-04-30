@@ -1,0 +1,10 @@
+'scopeName': 'text.xml.mucow'
+'name': 'XML (MuCow)'
+'fileTypes': [
+  'mucow'
+]
+'patterns': [
+  {
+    'include': 'text.xml'
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "language-mucow",
+  "version": "0.0.0",
+  "description": "MuCow language support in Atom",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreamaiolo/language-mucow"
+  },
+  "bugs": {
+    "url": "https://github.com/andreamaiolo/language-mucow/issues"
+  }
+}
