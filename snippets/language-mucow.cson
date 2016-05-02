@@ -71,3 +71,6 @@
   'Locale':
     'prefix': 'locale'
     'body': '<locale name="$1">\n\t<string keyString="$2" translation="$3" />$0\n</locale>'
+  'String':
+    'prefix': 'string'
+    'body': '<string keyString="$1" translation="$2" />$0'
