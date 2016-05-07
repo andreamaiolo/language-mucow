@@ -5,6 +5,30 @@
 ]
 'patterns': [
   {
+    'match': '{param_}'
+    'name': 'keyword.other.param.mucow'
+  }
+  {
+    'begin': '<!\\[CDATA\\['
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.section.embedded.begin.xml.mucow'
+    'end': ']]>'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.section.embedded.end.xml.mucow'
+    'name': 'text.html.basic.embedded.xml.mucow'
+    'patterns': [
+      {
+        'match': '{param_}'
+        'name': 'keyword.other.param.mucow'
+      }
+      {
+        'include': 'text.html.basic'
+      }
+    ]
+  }
+  {
     'include': 'text.xml'
   }
 ]
